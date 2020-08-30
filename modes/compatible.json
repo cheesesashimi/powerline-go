@@ -1,0 +1,18 @@
+{
+	"Lock": "RO",
+	"Network": "SSH",
+	"NetworkAlternate": "SSH",
+	"Separator": "▶",
+	"SeparatorThin": "❯",
+	"SeparatorReverse": "◀",
+	"SeparatorReverseThin": "❮",
+	"RepoDetached": "⚓",
+	"RepoBranch": "",
+	"RepoAhead": "⬆",
+	"RepoBehind": "⬇",
+	"RepoStaged": "✔",
+	"RepoNotStaged": "✎",
+	"RepoUntracked": "+",
+	"RepoConflicted": "✼",
+	"RepoStashed": "⚑"
+}

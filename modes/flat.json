@@ -1,0 +1,18 @@
+{
+	"Lock": "",
+	"Network": "",
+	"NetworkAlternate": "",
+	"Separator": "",
+	"SeparatorThin": "",
+	"SeparatorReverse": "",
+	"SeparatorReverseThin": "",
+	"RepoDetached": "⚓",
+	"RepoBranch": "",
+	"RepoAhead": "⬆",
+	"RepoBehind": "⬇",
+	"RepoStaged": "✔",
+	"RepoNotStaged": "✎",
+	"RepoUntracked": "+",
+	"RepoConflicted": "✼",
+	"RepoStashed": "⚑"
+}
