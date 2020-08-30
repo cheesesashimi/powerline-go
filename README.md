@@ -26,6 +26,7 @@ Ported to golang by @justjanne.
   - [Nix](#nix)
   - [PowerShell](#powershell)
 - [Customization](#customization)
+- [Themes](#themes)
 - [License](#license)
 
 ## Version Control
@@ -261,6 +262,22 @@ Usage of powerline-go:
     	 Minimum width of a segment, segments longer than this will be shortened if space is limited. Setting this to 0 disables it.
     	 (default 16)
 ```
+
+### Themes
+
+If you would like to change the default theme, you can specify a path to a JSON file containing your theme:
+
+```bash
+powerline-go -theme /path/to/your/theme_file.json
+```
+
+Additionally, if you would like to override the separation characters, you can specify a path to a JSON file containing your preferences:
+
+```bash
+powerline-go -mode /path/to/your/mode_file.json
+```
+
+See [themes](./themes/) and [modes](./modes/) for examples.
 
 ### Eval
 
