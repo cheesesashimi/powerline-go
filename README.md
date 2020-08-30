@@ -217,6 +217,7 @@ Usage of powerline-go:
     	 Maximum width of the shell that the prompt may use, in percent. Setting this to 0 disables the shrinking subsystem.
   -mode string
     	 The characters used to make separators between segments.
+    	 Can also be a path to a json file with your custom mode; /path/to/your/mode.json
     	 (valid choices: patched, compatible, flat)
     	 (default "patched")
   -modules string
@@ -253,6 +254,7 @@ Usage of powerline-go:
     	 Always show the prompt indicator with the default color, never with the error color
   -theme string
     	 Set this to the theme you want to use
+    	 Can also be a path to a json file with your theme; /path/to/your/theme.json
     	 (valid choices: default, low-contrast)
     	 (default "default")
   -truncate-segment-width int
