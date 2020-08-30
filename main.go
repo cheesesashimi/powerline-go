@@ -184,11 +184,13 @@ func main() {
 			"mode",
 			"patched",
 			commentsWithDefaults("The characters used to make separators between segments.",
+				"Can also be a path to a json file with your custom mode; /path/to/your/mode.json",
 				"(valid choices: patched, compatible, flat)")),
 		Theme: flag.String(
 			"theme",
 			"default",
 			commentsWithDefaults("Set this to the theme you want to use",
+				"Can also be a path to a json file with your theme; /path/to/your/theme.json",
 				"(valid choices: default, low-contrast)")),
 		Shell: flag.String(
 			"shell",
